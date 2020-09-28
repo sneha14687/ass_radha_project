@@ -1,0 +1,153 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-25T09:08:12.007Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8303000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Mail.MailSteps.beforetest()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Compose a mail",
+        "description": "",
+        "id": "sending-mail-feature;compose-a-mail",
+        "after": [
+          {
+            "result": {
+              "duration": 421000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Mail.MailSteps.aftertest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22807000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Elearning is logged in",
+            "match": {
+              "location": "Mail.MailSteps.elearning_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8690000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on compose button",
+            "match": {
+              "location": "Mail.MailSteps.i_click_on_compose_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 243000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Enter Send to mail as \"\u003csendtomail\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003csendtomail\u003e\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Mail.MailSteps.i_enter_send_to_mail_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Enter subject as \"\u003csubject\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003csubject\u003e\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Mail.MailSteps.i_enter_subject_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Enter message as \"\u003cmessage\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cmessage\u003e\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Mail.MailSteps.i_enter_message_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3132000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on send message button",
+            "match": {
+              "location": "Mail.MailSteps.i_click_on_send_message_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should get acknowledgement",
+            "match": {
+              "location": "Mail.MailSteps.i_should_get_acknowledgement()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Mail"
+          }
+        ]
+      }
+    ],
+    "name": "Sending Mail Feature",
+    "description": "This feature includes scenario that would compose a mail",
+    "id": "sending-mail-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Mail.feature",
+    "tags": []
+  }
+]
